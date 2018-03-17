@@ -1,7 +1,11 @@
 #!/bin/bash
-#ARDUINO_DIR should contain your arduino directory
+
+#YOUR ARDUINO DIRECTORY GOES HERE "ARDUINO_DIR" 
 echo "ARDUINO_DIR = ~/apps/arduino-1.8.4" > Makefile
+
+#JUST PUT YOUR RELATIVE PATH INSTEAD OF WHAT I HAVE PROVIDED IN "ARDMK_DIR"
 echo "ARDMK_DIR = ~/.arduino_mk" >> Makefile
+
 echo "BOARD_TAG = uno" >> Makefile
 echo -en '\n' >> Makefile
 echo "include \$(ARDMK_DIR)/Arduino.mk" >> Makefile
