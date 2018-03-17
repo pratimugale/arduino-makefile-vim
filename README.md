@@ -4,13 +4,13 @@ Since typing and uploading from the Arduino IDE was annoying, I searched and fou
 But since a Makefile needs to be made with every sketch, I created a simple Shell-Script that makes it in one go
 
 To build the Makefile for a UNO sketch, type 
-$ makefile-uno
+`$ makefile-uno`
 
 To make, reset and upload the sketch I created another Shell-Script
-$ ard-upload
+`$ ard-upload`
 
 But to make and use the serial monitor, type
-$ make monitor
+`$ make monitor`
 instead.
 
 ## Installation
