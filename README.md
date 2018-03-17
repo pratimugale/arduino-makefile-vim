@@ -54,5 +54,5 @@ Open "make-uno" in any text editor.
 Give path to your installed arduino directory in "ARDUINO_DIR".
 **Be sure to give Absolute Path. It won't work if relative path is given**
 
-\In the "ARDMK_DIR" variable, give path as "/home/your-username/.arduino_mk"\
+In the "ARDMK_DIR" variable, give path as "/home/your-username/.arduino_mk"
 **Again, be sure you use Absolute Path**
