@@ -17,4 +17,5 @@ Now we just need to add our user to the group:
 
 sudo usermod -a -G dialout <username>
 
-where <username> is your linux user name. You will need to log out and log in again for this change to take effect.
+where <username> is your linux user name. 
+**You will need to log out and log in again for this change to take effect.**
