@@ -42,7 +42,7 @@ where <username> is your linux user name.
 Clone this repository in any desired directory.
 **Don't clone this into your home directory**
 
-### Step 3: Run `$./install.sh` in your terminal
+### Step 3: Run `$ ./install.sh` in your terminal
 
 After Running the above command, navigate to your home directory.
 
