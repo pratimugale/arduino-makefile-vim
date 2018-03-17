@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "ARDUINO_DIR = /home/pratim/apps/arduino-1.8.4" > Makefile
-echo "ARDMK_DIR = /home/pratim/.arduino_mk" >> Makefile
+echo "ARDUINO_DIR = ~/apps/arduino-1.8.4" > Makefile
+echo "ARDMK_DIR = ~/.arduino_mk" >> Makefile
 echo "BOARD_TAG = uno" >> Makefile
 echo -en '\n' >> Makefile
 echo "include \$(ARDMK_DIR)/Arduino.mk" >> Makefile
