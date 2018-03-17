@@ -1,9 +1,9 @@
 # To set up settings to use vim for arduino
 
-# Installation
+## Installation
 
 
-## Step 1: Download and Install Arduino IDE from their [website](https://www.arduino.cc/en/Main/Software) .
+### Step 1: Download and Install Arduino IDE from their [website](https://www.arduino.cc/en/Main/Software) .
 
 If this is the first time you are using arduino (ie. if you have never even used Arduino IDE before),
 
@@ -39,5 +39,5 @@ Open "make-uno" in any text editor
 Give path to your installed arduino directory in "ARDUINO_DIR".
 **Be sure to give Absolute Path. It won't work if relative path is given**
 
-In the "ARDMK_DIR" variable, give path as "/home/<your-username>/.arduino_mk"
+In the "ARDMK_DIR" variable, give path as "/home/your-username/.arduino_mk"
 **Again, be sure you use Absolute Path**
