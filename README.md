@@ -1,7 +1,7 @@
 # To set up settings to use vim for arduino
 
 
-##If this is the first time you are using arduino (ie. if you have never used arduino before),
+## If this is the first time you are using arduino (ie. if you have never used arduino before),
 
 Open Terminal and type:
 
