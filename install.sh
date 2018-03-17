@@ -6,4 +6,5 @@ cp make-uno ~/ardbin
 chmod +x ~/ardbin/ard-upload
 chmod +x ~/ardbin/make-uno
 echo "export PATH=\$PATH:~/ardbin" >> ~/.bashrc
+cd
 . ~/.bashrc
