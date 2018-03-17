@@ -1,4 +1,17 @@
-# To set up settings to use vim for arduino
+# Directly uploading code to Arduino Boards using terminal
+Since typing and uploading from the Arduino IDE was annoying, I searched and found this [Arduino-Makefile](https://github.com/sudar/Arduino-Makefile) which knows how to build Arduino sketches. It defines entire workflows for compiling code, flashing it to Arduino and even communicating through Serial monitor. You don't need to change anything in the Arduino sketches.
+
+But since a Makefile needs to be made with every sketch, I created a simple Shell-Script that makes it in one go
+
+To build the Makefile for a UNO sketch, type 
+$ makefile-uno
+
+To make, reset and upload the sketch I created another Shell-Script
+$ ard-upload
+
+But to make and use the serial monitor, type
+$ make monitor
+instead.
 
 ## Installation
 
