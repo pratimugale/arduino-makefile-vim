@@ -1,4 +1,5 @@
 #!/bin/bash
+cp .arduino_mk ~/
 mkdir ~/ardbin/
 cp ard-upload ~/ardbin
 cp make-uno ~/ardbin
