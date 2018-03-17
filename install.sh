@@ -2,7 +2,7 @@
 cp -r .arduino_mk ~/
 mkdir ~/ardbin/
 cp ard-upload ~/ardbin
-cp make-uno ~/ardbin
+cp makefile-uno ~/ardbin
 chmod +x ~/ardbin/ard-upload
 chmod +x ~/ardbin/makefile-uno
 echo "export PATH=\$PATH:~/ardbin" >> ~/.bashrc
