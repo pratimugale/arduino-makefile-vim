@@ -1,4 +1,5 @@
 #!/bin/bash
+#ARDUINO_DIR should contain your arduino directory
 echo "ARDUINO_DIR = ~/apps/arduino-1.8.4" > Makefile
 echo "ARDMK_DIR = ~/.arduino_mk" >> Makefile
 echo "BOARD_TAG = uno" >> Makefile
