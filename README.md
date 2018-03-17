@@ -27,7 +27,7 @@ where <username> is your linux user name.
 ### Step 2: Clone this repository
 
 Clone this repository in any desired directory.
-**Don't clone this into your home repository**
+**Don't clone this into your home directory**
 
 ### Step 3: run $./install.sh in your terminal
 
