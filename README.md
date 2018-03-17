@@ -22,7 +22,7 @@ If this is the first time you are using arduino (ie. if you have never even used
 
 Open Terminal and type:
 
-`ls -l /dev/ttyACM*`
+`$ ls -l /dev/ttyACM*`
 
 you will get an output that looks like:
 
@@ -32,7 +32,7 @@ The "0" at the end of ACM might be a different number, or multiple entries might
 
 Now we just need to add our user to the group:
 
-`sudo usermod -a -G dialout <username>`
+`$ sudo usermod -a -G dialout <username>`
 
 where <username> is your linux user name. 
 **You will need to log out and log in again for this change to take effect.**
@@ -44,6 +44,10 @@ Clone this repository in any desired directory.
 
 ### Step 3: Run `$./install.sh` in your terminal
 
+After Running the above command, navigate to your home directory.
+
+Type this into your terminal:
+`$ . ~/.bashrc`
 
 ### Step 4: Configuration
 
