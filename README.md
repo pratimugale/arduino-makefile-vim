@@ -13,6 +13,8 @@ But to make and use the serial monitor, type
 `$ make monitor`
 instead.
 
+To exit from monitor: ctrl-a, then k, then "yes"
+
 ## Installation
 
 
